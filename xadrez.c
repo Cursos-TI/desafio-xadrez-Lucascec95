@@ -15,7 +15,11 @@ for (int i= 0; i < 5; i++) {
   printf("esquerda\n"); // imprime a direção do movimento
 }
 
+int movimentocompleto = 1; // flag para controlar o movimento em 'L'
 
-return 0;
-
+while (movimentocompleto--)
+{
+ for (int i = 0; i < 2; i++){
+}
+  printf ("Direita\n"); // imprime "direita" uma vez
 }
